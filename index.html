@@ -1,1 +1,112 @@
-hello
+<!DOCTYPE html>
+<html>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+}
+header {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  margin: 0;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+nav ul li {
+  margin-right: 20px;
+}
+nav ul li:last-child {
+  margin-right: 0;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+section {
+  flex-basis: 20%;
+}
+section h2 {
+  margin: 0 0 10px;
+}
+section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+section ul li {
+  margin-bottom: 5px;
+}
+section ul li a {
+  text-decoration: none;
+  color: #333;
+  }
+  </style>
+  <head>
+    <title>Google Play Store Clone</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Google Play Store</h1>
+      <nav>
+        <ul>
+          <li><a href="#apps">Apps</a></li>
+          <li><a href="#games">Games</a></li>
+          <li><a href="#movies">Movies</a></li>
+          <li><a href="#books">Books</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="apps">
+        <h2>Top Apps</h2>
+        <ul>
+          <li><a href="#">App 1</a></li>
+          <li><a href="#">App 2</a></li>
+          <li><a href="#">App 3</a></li>
+          <li><a href="#">App 4</a></li>
+        </ul>
+      </section>
+      <section id="games">
+        <h2>Top Games</h2>
+        <ul>
+          <li><a href="#">Game 1</a></li>
+          <li><a href="#">Game 2</a></li>
+          <li><a href="#">Game 3</a></li>
+          <li><a href="#">Game 4</a></li>
+        </ul>
+      </section>
+      <section id="movies">
+        <h2>Top Movies</h2>
+        <ul>
+          <li><a href="#">Movie 1</a></li>
+          <li><a href="#">Movie 2</a></li>
+          <li><a href="#">Movie 3</a></li>
+          <li><a href="#">Movie 4</a></li>
+        </ul>
+      </section>
+      <section id="books">
+        <h2>Top Books</h2>
+        <ul>
+          <li><a href="#">Book 1</a></li>
+          <li><a href="#">Book 2</a></li>
+          <li><a href="#">Book 3</a></li>
+          <li><a href="#">Book 4</a></li>
+        </ul>
+      </section>
+    </main>
+  </body>
+  </html>
